@@ -76,12 +76,12 @@
 }
 
 .wrapper {
-  width: 1200px;
-  height: 600px;
+  max-width: 1600px;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
-  background-image: url(images\img-background-main-page.jpg);
+  background-image: url("images\img-background-main-page.jpg");
 
   align-items: center;
   padding: 200px 0;
