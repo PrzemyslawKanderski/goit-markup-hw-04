@@ -81,7 +81,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
-  background-image: url("images\img-background-main-page.jpg");
+  background-image: url("../images/img-background-main-page.jpg");
 
   align-items: center;
   padding: 200px 0;
@@ -309,4 +309,11 @@
 .contacts-footer:hover,
 .contacts-footer:focus {
   color: var(--blue-fonts-color);
+}
+.nav-icons-container {
+  display: flex;
+  max-width: 10px;
+  max-height: 16px;
+}
+.nav-icons {
 }
