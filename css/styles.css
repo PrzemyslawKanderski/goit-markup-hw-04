@@ -312,8 +312,8 @@
 }
 .nav-icons-container {
   display: flex;
-  max-width: 10px;
-  max-height: 16px;
+  justify-content: center;
 }
 .nav-icons {
+  border: none;
 }
