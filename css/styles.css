@@ -317,3 +317,14 @@
 .nav-icons {
   border: none;
 }
+.footer-social-container {
+  width: 206px;
+  height: 44px;
+  background-color: var(--background-color);
+}
+.footter-social-icons {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--grey-fonts-color);
+}
