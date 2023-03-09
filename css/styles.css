@@ -318,11 +318,13 @@
   border: none;
 }
 .footer-social-container {
+  display: flex;
   width: 206px;
   height: 44px;
   background-color: var(--background-color);
 }
 .footter-social-icons {
+  display: inline;
   width: 44px;
   height: 44px;
   border-radius: 50%;
