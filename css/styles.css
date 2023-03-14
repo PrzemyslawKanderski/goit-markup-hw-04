@@ -284,6 +284,7 @@
   justify-content: left;
 }
 .footer-contacts {
+  display: flex;
   list-style: none;
   flex-direction: column;
   margin: 0;
