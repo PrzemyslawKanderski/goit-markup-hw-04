@@ -89,16 +89,7 @@
 .wrapper-bottom {
   background-color: var(--background-color);
 }
-.address {
-  font-family: "Roboto";
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: none;
 
-  color: var(--h1-color);
-  margin-top: 5px;
-  font-style: normal;
-}
 .h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -278,6 +269,17 @@
   display: flex;
   align-items: center;
 }
+.address {
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: none;
+
+  color: var(--h1-color);
+  margin-top: 5px;
+  font-style: normal;
+}
 .footer-logo-address {
   display: flex;
   flex-direction: column;
@@ -325,7 +327,6 @@
   background-color: var(--background-color);
 }
 .footter-social-icons {
-  display: inline;
   width: 44px;
   height: 44px;
   border-radius: 50%;
