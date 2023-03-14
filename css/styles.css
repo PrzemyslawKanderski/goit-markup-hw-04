@@ -270,7 +270,6 @@
   align-items: center;
 }
 .address {
-  display: inline-block;
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
@@ -331,4 +330,8 @@
   height: 44px;
   border-radius: 50%;
   background-color: var(--blue-fonts-color);
+}
+.address-social {
+  display: flex;
+  justify-content: center;
 }
