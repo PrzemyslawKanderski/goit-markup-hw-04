@@ -238,6 +238,9 @@
 }
 .clients-main {
   max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .team-main-social {
   max-width: 206px;
