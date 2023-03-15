@@ -236,6 +236,12 @@
   flex-direction: column;
   margin-top: 50px;
 }
+.clients-main {
+}
+.team-main-social {
+  max-width: 206px;
+  max-height: 44px;
+}
 .wrapper-portfolio {
   max-width: 1200px;
   flex-wrap: wrap;
