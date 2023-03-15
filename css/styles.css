@@ -245,6 +245,15 @@
 .team-main-social {
   max-width: 206px;
   max-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-icons {
+  display: inline-block;
+  max-height: 44px;
+  max-width: 44px;
+  color: var(--grey-fonts-color);
 }
 .wrapper-portfolio {
   max-width: 1200px;
