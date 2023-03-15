@@ -159,6 +159,7 @@
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  justify-content: center;
 }
 .container-header {
   display: flex;
@@ -253,7 +254,7 @@
   display: inline-block;
   max-height: 44px;
   max-width: 44px;
-  color: var(--grey-fonts-color);
+  fill: var(--grey-fonts-color);
 }
 .wrapper-portfolio {
   max-width: 1200px;
