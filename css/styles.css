@@ -237,6 +237,7 @@
   margin-top: 50px;
 }
 .clients-main {
+  max-width: 1170px;
 }
 .team-main-social {
   max-width: 206px;
