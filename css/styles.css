@@ -81,7 +81,6 @@
   flex-direction: column;
   background-color: var(--background-color);
   background-image: url("../images/img-background-main-page.jpg");
-
   align-items: center;
   padding: 200px 0;
 }
@@ -237,11 +236,26 @@
   flex-direction: column;
   margin-top: 50px;
 }
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
 .clients-main {
   max-width: 1170px;
   display: flex;
   justify-content: space-between;
+  align-content: center;
   align-items: center;
+}
+.clients-icons {
+  display: flex;
+  max-height: 40px;
+  max-width: 40px;
+  fill: var(--grey-fonts-color);
 }
 .team-main-social {
   max-width: 206px;
@@ -251,9 +265,9 @@
   justify-content: space-between;
 }
 .social-icons {
-  display: inline-block;
-  max-height: 44px;
-  max-width: 44px;
+  display: flex;
+  max-height: 20px;
+  max-width: 20px;
   fill: var(--grey-fonts-color);
 }
 .wrapper-portfolio {
