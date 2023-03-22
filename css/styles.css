@@ -54,7 +54,7 @@
 }
 .buttons:hover,
 .buttons:focus {
-  color: #2196f3;
+  background-color: #2196f3;
 }
 .text-bold {
   font-family: "Roboto";
