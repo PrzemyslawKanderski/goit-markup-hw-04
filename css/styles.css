@@ -165,6 +165,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 30px;
+  margin-bottom: auto;
   border-bottom: #757575;
 }
 .navigation-container {
@@ -213,7 +214,7 @@
   max-width: 1200px;
   max-height: 1360px;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-between;
   margin-top: 34px;
 }
 .lorem-nav {
