@@ -155,9 +155,12 @@
   color: var(--h1-color);
 }
 .container {
-  margin: 0 auto;
+  display: flex;
+  margin: auto;
   max-width: 1200px;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
 }
 .container-header {
   display: flex;
@@ -245,7 +248,7 @@
   padding-bottom: 20px;
 }
 .clients-main {
-  max-width: 1170px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -253,9 +256,11 @@
 }
 .clients-icons {
   display: flex;
-  max-height: 40px;
-  max-width: 40px;
+  max-height: 92px;
+  max-width: 92px;
   fill: var(--grey-fonts-color);
+  justify-content: space-between;
+  align-content: center;
 }
 .team-main-social {
   max-width: 206px;
@@ -263,6 +268,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: auto;
 }
 .social-icons {
   display: flex;
@@ -358,15 +364,19 @@
   width: 206px;
   height: 44px;
   background-color: var(--background-color);
+  gap: 7px;
 }
 .footter-social-icons {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: var(--blue-fonts-color);
+  justify-content: center;
+  gap: 7px;
 }
 .address-social {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: baseline;
+  gap: 30px;
 }
