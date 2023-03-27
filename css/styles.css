@@ -74,13 +74,15 @@
   color: var(--grey-fonts-color);
   text-align: center;
 }
-
+.section-button-main {
+  background: url("../images/img-background-main-page.jpg");
+}
 .wrapper {
   max-height: 600px;
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
-  background-image: url("../images/img-background-main-page.jpg");
+
   align-items: center;
   padding: 200px 0;
 }
@@ -200,6 +202,9 @@
 .nav-items {
   list-style: none;
   padding-left: 20px;
+}
+.section-team {
+  background-color: #f5f4fa;
 }
 
 .inner-text {
@@ -377,6 +382,6 @@
 .address-social {
   display: flex;
   align-items: center;
-  justify-content: baseline;
+
   gap: 30px;
 }
