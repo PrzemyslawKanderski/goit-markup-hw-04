@@ -76,7 +76,6 @@
 }
 .wrapper {
   max-height: 600px;
-  background-color: var(--background-color);
   background-image: url("../images/img-background-main-page.jpg");
   display: flex;
   flex-direction: column;
