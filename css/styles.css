@@ -74,15 +74,12 @@
   color: var(--grey-fonts-color);
   text-align: center;
 }
-.section-button-main {
-  background-image: url("../images/Img-background-main-page.jpg");
-}
 .wrapper {
   max-height: 600px;
+  background-color: var(--background-color);
+  background-image: url("../images/img-background-main-page.jpg");
   display: flex;
   flex-direction: column;
-  background-color: var(--background-color);
-
   align-items: center;
   padding: 200px 0;
 }
