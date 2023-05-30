@@ -76,6 +76,7 @@
 }
 .wrapper {
   max-height: 600px;
+  background-color: var(--background-color);
   background-image: url("../images/img-background-main-page.jpg");
   display: flex;
   flex-direction: column;
@@ -161,6 +162,7 @@
   align-content: center;
 }
 .container-header {
+  max-width: 1200 px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -381,10 +383,13 @@
 
   gap: 30px;
 }
-.lorem-icons {
+.lorem-icons-background {
   display: flex;
   border-radius: 4px;
   width: 270px;
   height: 120px;
   padding: 25px 100px 25px 100px;
+  background-color: #f5f4fa;
+}
+.lorem-icons {
 }
