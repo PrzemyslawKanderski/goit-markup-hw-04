@@ -156,13 +156,13 @@
 .container {
   display: flex;
   margin: auto;
+  margin-top: 1%;
   max-width: 1200px;
   justify-content: space-between;
   flex-direction: column;
   align-content: center;
 }
 .container-header {
-  max-width: 1200 px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -170,7 +170,6 @@
   border-bottom: #757575;
 }
 .navigation-container {
-  max-width: 1200px;
   display: flex;
   align-items: center;
 }
@@ -264,14 +263,17 @@
   fill: var(--grey-fonts-color);
   justify-content: space-between;
   align-content: center;
+  border: solid;
+  border-color: var(--grey-fonts-color);
+  border-radius: 5%;
 }
 .team-main-social {
   max-width: 206px;
-  max-height: 44px;
+  max-height: 56px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: auto;
+  justify-content: space-around;
+  margin: 10%;
 }
 .social-icons {
   display: flex;
@@ -386,7 +388,6 @@
 .lorem-icons-background {
   display: flex;
   border-radius: 4px;
-  width: 270px;
   height: 120px;
   padding: 25px 100px 25px 100px;
   background-color: #f5f4fa;
