@@ -18,6 +18,8 @@
 }
 
 .contacts-top {
+  display: flex;
+  align-items: center;
   font-family: "Roboto";
 
   font-weight: 500;
@@ -366,7 +368,7 @@
   display: flex;
   justify-content: center;
 }
-.nav-icons {
+.nav-icon {
   border: none;
 }
 .footer-social-container {
