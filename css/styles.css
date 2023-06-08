@@ -235,13 +235,16 @@
   display: flex;
   background-color: var(--h1-color);
   justify-content: space-around;
+  padding: 0;
 }
 .inner-images {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 50px;
-  border: solid var(--bold-fonts-color);
+  box-shadow: 6px 6px 0px 0px var(--bold-fonts-color);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--bold-fonts-color);
+  -moz-box-shadow: 6px 6px 0px 0px var(--bold-fonts-color);
 }
 .clients {
   display: flex;
@@ -268,7 +271,6 @@
   border: solid;
   border-color: var(--grey-fonts-color);
   border-radius: 5%;
-  border-width: 170px;
 }
 .team-main-social {
   max-width: 206px;
