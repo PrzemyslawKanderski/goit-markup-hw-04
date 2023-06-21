@@ -21,6 +21,7 @@
   display: flex;
   align-items: center;
   font-family: "Roboto";
+  justify-content: space-between;
 
   font-weight: 500;
   font-size: 14px;
@@ -156,13 +157,9 @@
   color: var(--h1-color);
 }
 .container {
-  display: flex;
-  margin: auto;
-  margin-top: 1%;
+  margin: 0 auto;
+
   max-width: 1200px;
-  justify-content: space-between;
-  flex-direction: column;
-  align-content: center;
 }
 .container-header {
   display: flex;
@@ -267,7 +264,6 @@
 .clients-icons {
   display: flex;
   max-height: 92px;
-  max-width: 92px;
   fill: var(--grey-fonts-color);
   justify-content: space-between;
   align-content: center;
@@ -400,5 +396,11 @@
   padding: 25px 100px 25px 100px;
   background-color: #f5f4fa;
 }
-.lorem-icons {
-}
+/* .lorem-icons {display: flex;
+  margin: auto;
+  margin-top: 1%;
+  max-width: 1200px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+} */
