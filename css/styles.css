@@ -165,19 +165,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
   border-bottom: #757575;
 }
-.navigation-container {
+.navigation {
   display: flex;
   align-items: center;
-  max-width: 1200px;
+  justify-content: space-between;
 }
 .menu {
   display: flex;
   max-width: 261 px;
   height: 16px;
   flex-grow: 1;
+}
+.contacts-menu {
+  display: flex;
 }
 .menu-contacts-top {
   display: flex;
@@ -199,6 +201,9 @@
 .nav-items {
   list-style: none;
   padding-left: 20px;
+}
+.nav-icon {
+  border: none;
 }
 .section-team {
   background-color: #f5f4fa;
@@ -311,13 +316,6 @@
   gap: 8px;
 }
 
-.contacts-menu {
-  display: flex;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-}
 .address {
   font-family: "Roboto";
   font-size: 14px;
@@ -360,13 +358,6 @@
 .contacts-footer:hover,
 .contacts-footer:focus {
   color: var(--blue-fonts-color);
-}
-.nav-icons-container {
-  display: flex;
-  justify-content: center;
-}
-.nav-icon {
-  border: none;
 }
 .footer-social-container {
   display: flex;
