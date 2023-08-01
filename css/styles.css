@@ -27,6 +27,10 @@
   justify-content: space-between;
   border-bottom: #757575;
 }
+.navigation-container {
+  display: flex;
+  align-items: center;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -66,7 +70,6 @@
 }
 .contacts-top {
   font-family: "Roboto";
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
