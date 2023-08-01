@@ -16,12 +16,56 @@
   text-decoration: none;
   display: flex;
 }
+.container {
+  margin: 0 auto;
 
-.contacts-top {
+  max-width: 1198px;
+}
+.container-header {
   display: flex;
   align-items: center;
-  font-family: "Roboto";
   justify-content: space-between;
+  border-bottom: #757575;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  max-width: 261 px;
+  height: 16px;
+  flex-grow: 1;
+}
+.contacts-menu {
+  display: flex;
+}
+.menu-contacts-top {
+  display: flex;
+  list-style: none;
+}
+.links {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--grey-fonts-color);
+}
+.links:hover,
+.links:focus {
+  color: var(--blue-fonts-color);
+}
+.nav-items {
+  list-style: none;
+  padding-left: 20px;
+}
+.nav-icon {
+  border: none;
+}
+.contacts-top {
+  font-family: "Roboto";
 
   font-weight: 500;
   font-size: 14px;
@@ -33,6 +77,17 @@
 .contacts-top:hover,
 .contacts-top:focus {
   color: var(--blue-fonts-color);
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-portfolio {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  gap: 8px;
 }
 .logo2 {
   font-family: "Raleway";
@@ -156,55 +211,7 @@
 .bright-color {
   color: var(--h1-color);
 }
-.container {
-  margin: 0 auto;
 
-  max-width: 1200px;
-}
-.container-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: #757575;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.menu {
-  display: flex;
-  max-width: 261 px;
-  height: 16px;
-  flex-grow: 1;
-}
-.contacts-menu {
-  display: flex;
-}
-.menu-contacts-top {
-  display: flex;
-  list-style: none;
-}
-.links {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  color: var(--grey-fonts-color);
-}
-.links:hover,
-.links:focus {
-  color: var(--blue-fonts-color);
-}
-.nav-items {
-  list-style: none;
-  padding-left: 20px;
-}
-.nav-icon {
-  border: none;
-}
 .section-team {
   background-color: #f5f4fa;
 }
@@ -303,17 +310,6 @@
   max-width: 370px;
   max-height: 404px;
   flex-direction: column;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu-portfolio {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  gap: 8px;
 }
 
 .address {
