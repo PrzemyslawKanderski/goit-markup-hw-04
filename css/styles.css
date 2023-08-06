@@ -343,14 +343,14 @@
   flex-direction: column;
   box-shadow: #757575;
 }
-.pictures-portfolio::before {
+.pictures-portfolio:hover::before {
   content: ();
   display: flex;
   max-width: 370px;
   max-height: 404px;
   flex-direction: column;
 }
-.pictures-portfolio::after {
+.pictures-portfolio:hover::after {
   content: ();
   display: flex;
   max-width: 370px;
