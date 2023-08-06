@@ -83,6 +83,9 @@
 .contacts-top:hover,
 .contacts-top:focus {
   color: var(--blue-fonts-color);
+  contacts-top:hover svg {
+    fill: var(--blue-fonts-color);
+  }
 }
 .nav-menu {
   display: flex;
@@ -140,7 +143,6 @@
 }
 .wrapper {
   max-height: 600px;
-  background-color: var(--background-color);
   background-image: url("/images/people-office-1.jpg");
   display: flex;
   flex-direction: column;
@@ -239,20 +241,33 @@
   justify-content: space-between;
   margin-top: 34px;
 }
-.lorem-nav {
+.icons-nav {
   display: flex;
   align-items: center;
 }
-.lorem-items {
+.icons-items {
   display: flex;
   max-width: 270px;
   text-align: left;
   flex-direction: column;
   margin-right: 10px;
 }
+.icons-background {
+  display: flex;
+  border-radius: 4px;
+  padding: 25px 100px 25px 100px;
+  background-color: #f5f4fa;
+}
+/* .section-2-icons {display: flex;
+  margin: auto;
+  margin-top: 1%;
+  max-width: 1200px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+} */
 .images-list {
   display: flex;
-  background-color: var(--h1-color);
   justify-content: space-around;
   padding: 0;
 }
@@ -260,10 +275,12 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  background-color: #ffffff;
   margin-top: 50px;
-  box-shadow: 6px 6px 0px 0px var(--bold-fonts-color);
-  -webkit-box-shadow: 6px 6px 0px 0px var(--bold-fonts-color);
-  -moz-box-shadow: 6px 6px 0px 0px var(--bold-fonts-color);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .clients {
   display: flex;
@@ -287,7 +304,7 @@
   justify-content: space-between;
   align-content: center;
   border: solid;
-  border-color: var(--grey-fonts-color);
+  border-color: #757575;
   border-radius: 5%;
   padding: 5px;
 }
@@ -324,6 +341,25 @@
   max-width: 370px;
   max-height: 404px;
   flex-direction: column;
+  box-shadow: #757575;
+}
+.pictures-portfolio::before {
+  content: ();
+  display: flex;
+  max-width: 370px;
+  max-height: 404px;
+  flex-direction: column;
+}
+.pictures-portfolio::after {
+  content: ();
+  display: flex;
+  max-width: 370px;
+  max-height: 404px;
+  flex-direction: column;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .address {
@@ -390,18 +426,3 @@
 
   gap: 30px;
 }
-.lorem-icons-background {
-  display: flex;
-  border-radius: 4px;
-  height: 120px;
-  padding: 25px 100px 25px 100px;
-  background-color: #f5f4fa;
-}
-/* .lorem-icons {display: flex;
-  margin: auto;
-  margin-top: 1%;
-  max-width: 1200px;
-  justify-content: space-between;
-  flex-direction: column;
-  align-content: center;
-} */
