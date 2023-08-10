@@ -143,7 +143,8 @@
 }
 .wrapper {
   max-height: 600px;
-  background-image: url("/images/people-office-1.jpg");
+  background-image: url("../images/people-office-1.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,6 +311,7 @@
 }
 .clients-icons:hover {
   fill: var(--blue-fonts-color);
+  border-color: var(--blue-fonts-color);
 }
 .team-main-social {
   max-width: 206px;
@@ -343,15 +345,8 @@
   max-height: 404px;
   flex-direction: column;
 }
-.pictures-portfolio:hover::before {
-  content: ();
-  display: flex;
-  max-width: 370px;
-  max-height: 404px;
-  flex-direction: column;
-  box-shadow: none;
-}
-.pictures-portfolio:hover::after {
+
+.pictures-portfolio:hover {
   content: ();
   display: flex;
   max-width: 370px;
@@ -413,6 +408,7 @@
   height: 44px;
   background-color: var(--background-color);
   gap: 7px;
+  flex-direction: column;
 }
 .container-social-icons-footer {
   display: flex;
