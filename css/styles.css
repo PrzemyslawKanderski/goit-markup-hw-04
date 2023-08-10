@@ -325,6 +325,7 @@
   max-width: 20px;
   fill: var(--grey-fonts-color);
 }
+
 .social-icons:hover {
   fill: var(--blue-fonts-color);
 }
@@ -341,7 +342,6 @@
   max-width: 370px;
   max-height: 404px;
   flex-direction: column;
-  box-shadow: #757575;
 }
 .pictures-portfolio:hover::before {
   content: ();
@@ -349,6 +349,7 @@
   max-width: 370px;
   max-height: 404px;
   flex-direction: column;
+  box-shadow: none;
 }
 .pictures-portfolio:hover::after {
   content: ();
@@ -360,6 +361,7 @@
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+  transition: 2ms;
 }
 
 .address {
@@ -412,6 +414,9 @@
   background-color: var(--background-color);
   gap: 7px;
 }
+.container-social-icons-footer {
+  display: flex;
+}
 .footter-social-icons {
   width: 44px;
   height: 44px;
@@ -419,6 +424,8 @@
   background-color: var(--blue-fonts-color);
   justify-content: center;
   gap: 7px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .address-social {
   display: flex;
