@@ -83,15 +83,13 @@
 .contacts-top:hover,
 .contacts-top:focus {
   color: var(--blue-fonts-color);
-  contacts-top:hover svg {
-    fill: var(--blue-fonts-color);
-  }
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
 }
-.svg-contacts:hover {
+.svg-contacts {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
@@ -100,14 +98,9 @@
   color: var(--grey-fonts-color);
   margin: 20px;
 }
+.svg-contacts:hover,
 .svg-contacts:focus {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  color: var(--grey-fonts-color);
-  margin: 20px;
+  color: var(--blue-fonts-color);
 }
 
 .menu-portfolio {
@@ -347,40 +340,32 @@
 .social-circles {
   fill: var(--blue-fonts-color);
 }
-.social-circles:hover::before,
-social-circles:focus::before {
-  fill: var(--blue-fonts-color);
-}
-.social-circles:hover::after,
-social-circles:focus::after {
+.social-circles:hover,
+.social-circles:focus {
   fill: var(--h1-color);
 }
 .social-icons-team {
   display: flex;
-  max-height: 26px;
-  max-width: 26px;
+  max-height: 20px;
+  max-width: 20px;
   fill: var(--h1-color);
 }
-.social-icons-team:hover::before,
-social-icons-team:focus::before {
-  fill: var(--h1-color);
-}
-.social-icons-team:hover::after,
-social-icons-team:focus::after {
+.social-icons-team:hover,
+.social-icons-team:focus {
   fill: var(--blue-fonts-color);
 }
 .social-icons-footer {
   display: flex;
-  max-height: 23px;
-  max-width: 23px;
+  max-height: 20px;
+  max-width: 20px;
   fill: var(--grey-fonts-color);
 }
-.social-icons-footer:hover::before,
-social-icons-footer:focus::before {
+.social-icons-footer:hover,
+.social-icons-footer:focus {
   fill: var(--h1-color);
 }
-.social-icons-footer:hover::after,
-social-icons-footer:focus:after {
+.social-icons-footer:hover,
+.social-icons-footer:focus {
   fill: var(--blue-fonts-color);
 }
 .wrapper-portfolio {
