@@ -91,6 +91,24 @@
   display: flex;
   justify-content: space-between;
 }
+.svg-contacts:hover {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--grey-fonts-color);
+  margin: 20px;
+}
+.svg-contacts:focus {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--grey-fonts-color);
+  margin: 20px;
+}
 
 .menu-portfolio {
   display: flex;
@@ -143,7 +161,11 @@
 }
 .wrapper {
   max-height: 600px;
-  background-image: url("../images/people-office-1.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/people-office-1.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -276,6 +298,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  border-radius: 1%;
   background-color: #ffffff;
   margin-top: 50px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -321,14 +344,43 @@
   justify-content: space-around;
   margin: 10%;
 }
-.social-icons {
+.social-circles {
+  fill: var(--blue-fonts-color);
+}
+.social-circles:hover::before,
+social-circles:focus::before {
+  fill: var(--blue-fonts-color);
+}
+.social-circles:hover::after,
+social-circles:focus::after {
+  fill: var(--h1-color);
+}
+.social-icons-team {
   display: flex;
-  max-height: 20px;
-  max-width: 20px;
+  max-height: 26px;
+  max-width: 26px;
+  fill: var(--h1-color);
+}
+.social-icons-team:hover::before,
+social-icons-team:focus::before {
+  fill: var(--h1-color);
+}
+.social-icons-team:hover::after,
+social-icons-team:focus::after {
+  fill: var(--blue-fonts-color);
+}
+.social-icons-footer {
+  display: flex;
+  max-height: 23px;
+  max-width: 23px;
   fill: var(--grey-fonts-color);
 }
-
-.social-icons:hover {
+.social-icons-footer:hover::before,
+social-icons-footer:focus::before {
+  fill: var(--h1-color);
+}
+.social-icons-footer:hover::after,
+social-icons-footer:focus:after {
   fill: var(--blue-fonts-color);
 }
 .wrapper-portfolio {
@@ -342,8 +394,12 @@
 .pictures-portfolio {
   display: flex;
   max-width: 370px;
+  margin-bottom: 35px;
   max-height: 404px;
   flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid var(--grey-fonts-color);
+  border-radius: 1%;
 }
 
 .pictures-portfolio:hover {
