@@ -332,9 +332,7 @@
 }
 .social-circles {
   fill: var(--blue-fonts-color);
-  border-radius: 50%;
-  max-width: 23px;
-  max-height: 23px;
+  r: 23px;
 }
 .social-circles:hover,
 .social-circles:focus {
@@ -356,10 +354,7 @@
   max-width: 20px;
   fill: var(--grey-fonts-color);
 }
-.social-icons-footer:hover,
-.social-icons-footer:focus {
-  fill: var(--h1-color);
-}
+
 .social-icons-footer:hover,
 .social-icons-footer:focus {
   fill: var(--blue-fonts-color);
