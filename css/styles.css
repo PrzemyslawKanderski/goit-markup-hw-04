@@ -72,6 +72,7 @@
   fill: var(--blue-fonts-color);
 }
 .contacts-top {
+  display: flex;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
@@ -79,22 +80,14 @@
   text-decoration: none;
   color: var(--grey-fonts-color);
   margin: 20px;
+  align-content: center;
 }
 .contacts-top:hover,
 .contacts-top:focus {
   color: var(--blue-fonts-color);
 }
 
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-}
 .svg-contacts {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
   color: var(--grey-fonts-color);
   margin: 20px;
 }
@@ -339,6 +332,9 @@
 }
 .social-circles {
   fill: var(--blue-fonts-color);
+  border-radius: 50%;
+  max-width: 23px;
+  max-height: 23px;
 }
 .social-circles:hover,
 .social-circles:focus {
