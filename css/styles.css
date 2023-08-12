@@ -81,6 +81,7 @@
   color: var(--grey-fonts-color);
   margin: 20px;
   align-content: center;
+  gap: 2px;
 }
 .contacts-top:hover,
 .contacts-top:focus {
@@ -178,6 +179,7 @@
   color: var(--bold-fonts-color);
   text-align: center;
   margin-top: 94px;
+  padding-top: 50px;
 }
 .h3 {
   font-family: "Roboto";
@@ -334,10 +336,10 @@
   max-width: 20px;
   fill: var(--h1-color);
 }
-.social-icons-team:hover,
+/* .social-icons-team:hover,
 .social-icons-team:focus {
   fill: var(--blue-fonts-color);
-}
+} */
 .social-icons-footer {
   display: flex;
   max-height: 20px;
@@ -345,10 +347,10 @@
   fill: var(--grey-fonts-color);
 }
 
-.social-icons-footer:hover,
+/* .social-icons-footer:hover,
 .social-icons-footer:focus {
   fill: var(--blue-fonts-color);
-}
+} */
 .wrapper-portfolio {
   max-width: 1200px;
   flex-wrap: wrap;
