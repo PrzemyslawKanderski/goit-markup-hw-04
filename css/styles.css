@@ -85,15 +85,12 @@
 .contacts-top:hover,
 .contacts-top:focus {
   color: var(--blue-fonts-color);
+  fill: var(--blue-fonts-color);
 }
 
 .svg-contacts {
-  color: var(--grey-fonts-color);
-  margin: 20px;
-}
-.svg-contacts:hover,
-.svg-contacts:focus {
-  color: var(--blue-fonts-color);
+  display: flex;
+  align-items: center;
 }
 
 .menu-portfolio {
