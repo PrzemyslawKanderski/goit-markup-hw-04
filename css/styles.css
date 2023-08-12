@@ -327,14 +327,7 @@
   justify-content: space-around;
   margin: 10%;
 }
-.social-circles {
-  fill: var(--blue-fonts-color);
-  r: 23px;
-}
-.social-circles:hover,
-.social-circles:focus {
-  fill: var(--h1-color);
-}
+
 .social-icons-team {
   display: flex;
   max-height: 20px;
