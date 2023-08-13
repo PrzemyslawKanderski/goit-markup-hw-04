@@ -330,6 +330,7 @@
   align-items: center;
   justify-content: space-around;
   margin: 10%;
+  padding: 0;
 }
 
 .social-icons-team {
@@ -346,18 +347,7 @@
   fill: var(--blue-fonts-color);
   background-color: #f5f4fa;
 }
-.social-icons-footer {
-  display: flex;
-  max-height: 20px;
-  max-width: 20px;
-  fill: var(--grey-fonts-color);
-  list-style: none;
-}
 
-.social-icons-footer:hover,
-.social-icons-footer:focus {
-  fill: var(--blue-fonts-color);
-}
 .wrapper-portfolio {
   max-width: 1200px;
   flex-wrap: wrap;
@@ -441,9 +431,24 @@
   gap: 7px;
   flex-direction: column;
 }
+.social-icons-footer {
+  display: flex;
+  max-height: 20px;
+  max-width: 20px;
+  fill: var(--grey-fonts-color);
+  padding: 0;
+}
+
+.social-icons-footer:hover,
+.social-icons-footer:focus {
+  fill: var(--blue-fonts-color);
+}
 .container-social-icons-footer {
   display: flex;
   list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  max-width: 52%;
 }
 .footter-social-icons {
   width: 44px;
