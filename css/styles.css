@@ -330,7 +330,6 @@
   align-items: center;
   justify-content: space-around;
   margin: 10%;
-  list-style: none;
 }
 
 .social-icons-team {
@@ -355,10 +354,10 @@
   list-style: none;
 }
 
-/* .social-icons-footer:hover,
+.social-icons-footer:hover,
 .social-icons-footer:focus {
   fill: var(--blue-fonts-color);
-} */
+}
 .wrapper-portfolio {
   max-width: 1200px;
   flex-wrap: wrap;
@@ -444,6 +443,7 @@
 }
 .container-social-icons-footer {
   display: flex;
+  list-style: none;
 }
 .footter-social-icons {
   width: 44px;
