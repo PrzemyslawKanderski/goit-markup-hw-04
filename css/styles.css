@@ -306,6 +306,7 @@
   justify-content: space-between;
   align-content: center;
   align-items: center;
+  list-style: none;
 }
 .clients-icons {
   display: flex;
@@ -329,6 +330,7 @@
   align-items: center;
   justify-content: space-around;
   margin: 10%;
+  list-style: none;
 }
 
 .social-icons-team {
@@ -350,6 +352,7 @@
   max-height: 20px;
   max-width: 20px;
   fill: var(--grey-fonts-color);
+  list-style: none;
 }
 
 /* .social-icons-footer:hover,
