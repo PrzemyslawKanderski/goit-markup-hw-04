@@ -343,6 +343,7 @@
 .social-icons-team:hover,
 .social-icons-team:focus {
   fill: var(--blue-fonts-color);
+  background-color: #f5f4fa;
 }
 .social-icons-footer {
   display: flex;
