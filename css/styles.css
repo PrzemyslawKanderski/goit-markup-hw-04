@@ -324,13 +324,14 @@
   border-color: var(--blue-fonts-color);
 }
 .team-main-social {
-  max-width: 206px;
-  max-height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 10%;
+  list-style: none;
   padding: 0;
+  padding-bottom: 32px;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
 }
 
 .social-icons-team {
