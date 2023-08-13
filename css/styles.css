@@ -266,14 +266,15 @@
   padding: 25px 100px 25px 100px;
   background-color: #f5f4fa;
 }
-/* .section-2-icons {display: flex;
+.section-2-icons {
+  display: flex;
   margin: auto;
   margin-top: 1%;
   max-width: 1200px;
   justify-content: space-between;
   flex-direction: column;
   align-content: center;
-} */
+}
 .images-list {
   display: flex;
   justify-content: space-around;
@@ -335,11 +336,14 @@
   max-height: 20px;
   max-width: 20px;
   fill: var(--h1-color);
+  border-radius: 50%;
+  border-color: #2196f3;
+  background-color: #2196f3;
 }
-/* .social-icons-team:hover,
+.social-icons-team:hover,
 .social-icons-team:focus {
   fill: var(--blue-fonts-color);
-} */
+}
 .social-icons-footer {
   display: flex;
   max-height: 20px;
