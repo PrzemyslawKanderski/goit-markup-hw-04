@@ -112,22 +112,7 @@
   text-decoration: none;
   margin: 5px;
 }
-.buttons {
-  font-family: "Roboto";
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  background-color: var(--grey-fonts-color);
-  color: var(--h1-color);
-  margin-top: 94px;
-  border-radius: 5%;
-}
-.buttons:hover,
-.buttons:focus {
-  background-color: 404BBF;
-  color: var(--h1-color);
-}
 .text-bold {
   font-family: "Roboto";
 
@@ -245,7 +230,54 @@
 }
 .inner-button {
   display: block;
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--grey-fonts-color);
+  color: var(--h1-color);
+  margin-top: 94px;
+  border-radius: 5%;
 }
+.inner-button:hover,
+.inner-button:focus {
+  background-color: 404BBF;
+  color: var(--h1-color);
+}
+.buttons-portfolio {
+  display: flex;
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--grey-fonts-color);
+  color: var(--h1-color);
+  margin-top: 94px;
+  border-radius: 5%;
+}
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
+  background-color: 404BBF;
+  color: var(--h1-color);
+}
+/* .buttons {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--grey-fonts-color);
+  color: var(--h1-color);
+  margin-top: 94px;
+  border-radius: 5%;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: 404BBF;
+  color: var(--h1-color);
+} */
 
 .list-pictures-portfolio {
   display: flex;
@@ -315,8 +347,8 @@
   list-style: none;
 }
 .clients-icons {
-  width: 104px;
-  height: 56px;
+  width: 164px;
+  height: 88px;
   fill: var(--grey-fonts-color);
   display: flex;
   justify-content: center;
@@ -347,7 +379,6 @@
   justify-content: center;
   fill: #f5f4fa;
   border-radius: 50%;
-  padding: 8px 9px;
 }
 .social-icons:hover,
 .social-icons:focus {
@@ -359,9 +390,7 @@
   max-width: 1200px;
   flex-wrap: wrap;
 }
-.buttons-portfolio {
-  display: flex;
-}
+
 .pictures-portfolio {
   display: flex;
   max-width: 370px;
@@ -433,10 +462,11 @@
 }
 .footer-social-container {
   display: flex;
-  width: 206px;
-  height: 44px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
   background-color: var(--background-color);
-  gap: 7px;
+  gap: 1em;
   flex-direction: column;
 }
 
@@ -445,7 +475,7 @@
   list-style: none;
   padding: 0;
   justify-content: space-between;
-  max-width: 52%;
+  gap: 1em;
 }
 .footter-social-icons {
   width: 44px;
