@@ -257,12 +257,12 @@
   margin-top: 94px;
   border-radius: 5%;
 }
-.buttons-portfolio:hover,
+/* .buttons-portfolio:hover,
 .buttons-portfolio:focus {
   background-color: 404BBF;
   color: var(--h1-color);
-}
-/* .buttons {
+}  */
+.buttons {
   font-family: "Roboto";
 
   font-weight: 500;
@@ -277,7 +277,7 @@
 .buttons:focus {
   background-color: 404BBF;
   color: var(--h1-color);
-} */
+}
 
 .list-pictures-portfolio {
   display: flex;
@@ -484,12 +484,6 @@
   background-color: var(--blue-fonts-color);
   justify-content: center;
   gap: 7px;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.address-social {
-  display: flex;
-  align-items: center;
 
-  gap: 30px;
+  flex-wrap: wrap;
 }
