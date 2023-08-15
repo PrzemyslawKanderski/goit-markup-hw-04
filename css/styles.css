@@ -315,16 +315,13 @@
   list-style: none;
 }
 .clients-icons {
-  display: flex;
-  max-width: 104;
-  max-height: 56;
+  width: 104px;
+  height: 56px;
   fill: var(--grey-fonts-color);
-  justify-content: space-between;
-  align-content: center;
-  border: solid;
-  border-color: #757575;
-  border-radius: 5%;
-  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--grey-fonts-color);
 }
 .clients-icons:hover {
   fill: var(--blue-fonts-color);
@@ -343,8 +340,9 @@
 
 .social-icons {
   display: flex;
-  background-color: red;
-  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--blue-fonts-color);
   align-items: center;
   justify-content: center;
   fill: var(--h1-color);
