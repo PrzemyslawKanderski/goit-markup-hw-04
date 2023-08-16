@@ -14,7 +14,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--light-slate);
+  color: var(--iris);
   text-decoration: none;
   display: flex;
 }
@@ -80,28 +80,29 @@
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  /* color: var(--light-slate); */
+  color: var(--light-slate);
+  fill: var(--light-slate);
   margin: 20px;
   align-content: center;
   gap: 2px;
 }
-/* .contacts-top:hover,
+.contacts-top:hover,
 .contacts-top:focus {
   color: var(--iris);
   fill: var(--iris);
-} */
+}
 
 .svg-contacts {
   display: flex;
   align-items: center;
-  color: var(--light-slate);
-  fill: var(--light-slate);
+  /* color: var(--light-slate);
+  fill: var(--light-slate); */
 }
-.svg-contacts:hover,
+/* .svg-contacts:hover,
 .svg-contacts:focus {
   color: var(--iris);
   fill: var(--iris);
-}
+} */
 
 .menu-portfolio {
   display: flex;
