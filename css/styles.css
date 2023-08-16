@@ -290,6 +290,9 @@ buttons-portfolio:hover,
   justify-content: space-between;
   margin-top: 34px;
 }
+.portfolio-cards {
+  display: block;
+}
 .pictures-portfolio {
   display: flex;
   max-width: 370px;
