@@ -83,11 +83,11 @@
   align-content: center;
   gap: 2px;
 }
-/* .contacts-top:hover,
+.contacts-top:hover,
 .contacts-top:focus {
   color: var(--blue-fonts-color);
   fill: var(--blue-fonts-color);
-} */
+}
 
 .svg-contacts {
   display: flex;
@@ -252,7 +252,7 @@
 }
 .inner-button:hover,
 .inner-button:focus {
-  background-color: 404BBF;
+  background-color: #404bbf;
   color: var(--h1-color);
 }
 .buttons-portfolio {
@@ -268,7 +268,7 @@
 }
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
-  background-color: 404BBF;
+  background-color: #404bbf;
   color: var(--h1-color);
 }
 .buttons {
@@ -283,7 +283,7 @@
 }
 .buttons:hover,
 .buttons:focus {
-  background-color: 404BBF;
+  background-color: #404bbf;
   color: var(--h1-color);
 }
 
