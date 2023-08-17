@@ -27,7 +27,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: var(--light-slate);
+  box-sizing: border-box;
+  border-bottom: 2px var(--light-slate);
+  border-top: none;
+  border-left: none;
+  border-right: none;
   margin-bottom: 96px;
 }
 .navigation-container {
@@ -234,11 +238,6 @@
 }
 .section-buttons {
   margin: bottom 72px;
-  box-sizing: border-box;
-  border: 2px var(--light-slate);
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
 .inner-button {
   display: block;
