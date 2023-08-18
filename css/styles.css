@@ -292,6 +292,12 @@
 }
 
 .buttons-portfolio {
+  padding: 12px 24px;
+  background-color: var(--cloud);
+  color: var(--iris);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  border-radius: 5%;
   list-style: none;
 }
 .buttons-portfolio:hover,
@@ -313,12 +319,11 @@
   color: var(--iris);
   border: 1px solid var(--cornflower);
   border-radius: 4px;
-  border-radius: 5%;
 }
 .buttons:hover,
 .buttons:focus {
-  background-color: var(--cloud);
-  color: var(--ocean);
+  background-color: var(--ocean);
+  color: var(--cloud);
 }
 
 .list-pictures-portfolio {
@@ -516,4 +521,5 @@
   flex-direction: column;
   max-width: 208px;
   max-height: 80px;
+  gap: 16px;
 }
