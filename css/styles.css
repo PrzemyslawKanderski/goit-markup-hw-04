@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  margin: auto;
+  width: 1440px;
+}
 
 :root {
   --h1-color: #ffffff;
@@ -27,7 +31,8 @@
 .container {
   margin: 0 auto;
 
-  max-width: 1198px;
+  width: 1198px;
+  padding: 0 15px;
 }
 .container-header {
   display: flex;
@@ -173,7 +178,7 @@
 .icons-main {
   margin-bottom: 40px;
 }
-.h1 {
+h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -182,26 +187,35 @@
   color: var(--h1-color);
   text-align: center;
 }
-.h2 {
-  font-family: "Roboto";
+h2 {
+  /* font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.11;
 
   color: var(--slate);
   text-align: center;
   margin-top: 94px;
-  padding-top: 50px;
-}
-.h3 {
+  padding-top: 50px; */
   font-family: "Roboto";
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--slate);
+  text-align: center;
+}
+h3 {
+  /* font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.18;
   color: var(--navy-blue);
-  margin-bottom: 8px;
+  margin-bottom: 8px; */
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
 }
 .list-item1 {
   display: flex;
@@ -254,6 +268,10 @@
   display: flex;
   max-width: 696px;
 }
+.work-examples {
+  display: flex;
+  margin-top: 72px;
+}
 .section-buttons {
   padding-bottom: 120px;
 }
@@ -292,7 +310,6 @@
 }
 
 .buttons-portfolio {
-  padding: 12px 24px;
   background-color: var(--cloud);
   color: var(--iris);
   border: 1px solid var(--cornflower);
@@ -345,13 +362,7 @@
   transition: 2ms;
   cursor: pointer;
 }
-/* .list-pictures-portfolio:hover {
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
-  transition: 2ms;
-} */
+
 .portfolio-cards {
   display: block;
 }
@@ -362,19 +373,19 @@
 }
 .icons-nav {
   display: flex;
-  align-items: center;
+  gap: 24px;
+  /* align-items: center; */
 }
 .icons-items {
   display: flex;
-  max-width: 270px;
-  text-align: left;
+  width: 264px;
+  gap: 8px;
   flex-direction: column;
-  margin-right: 10px;
 }
 .icons-background {
   display: flex;
   border-radius: 4px;
-  padding: 25px 100px 25px 100px;
+  padding: 24px 0;
   background-color: #f5f4fa;
   margin-bottom: 8px;
 }
@@ -389,8 +400,9 @@
 }
 .images-list {
   display: flex;
-  justify-content: space-around;
-  padding: 0;
+  /* justify-content: space-around;
+  padding: 0; */
+  gap: 24px;
 }
 .inner-images {
   display: flex;
