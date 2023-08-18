@@ -181,16 +181,6 @@ h1 {
   text-align: center;
 }
 h2 {
-  /* font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  color: var(--slate);
-  text-align: center;
-  margin-top: 94px;
-  padding-top: 50px; */
   font-family: "Roboto";
   font-size: 36px;
   line-height: 1.11;
@@ -198,13 +188,6 @@ h2 {
   text-align: center;
 }
 h3 {
-  /* font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.18;
-  color: var(--navy-blue);
-  margin-bottom: 8px; */
   font-family: "Roboto";
   font-size: 20px;
   line-height: 1.2;
@@ -217,7 +200,7 @@ h3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
+  padding-bottom: 113px;
   color: var(--slate);
 }
 .list-item2 {
@@ -255,6 +238,7 @@ h3 {
   background-color: #f5f4fa;
   height: 740px;
   margin-bottom: 120px;
+  padding-top: 120px;
 }
 
 .inner-text {
@@ -368,7 +352,6 @@ h3 {
 .icons-nav {
   display: flex;
   gap: 24px;
-  /* align-items: center; */
 }
 .icons-items {
   display: flex;
