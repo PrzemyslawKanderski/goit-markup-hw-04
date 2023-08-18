@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --h1-color: #ffffff;
   --ocean: #404bbf;
@@ -226,7 +232,7 @@
   color: var(--h1-color);
 }
 .section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .section-team {
   background-color: #f5f4fa;
@@ -239,7 +245,7 @@
   max-width: 696px;
 }
 .section-buttons {
-  margin: bottom 72px;
+  padding-bottom: 120px;
 }
 .inner-button {
   display: block;
@@ -276,18 +282,7 @@
 }
 
 .buttons-portfolio {
-  display: flex;
-  max-width: 586px;
-  max-height: 58px;
-  justify-content: space-between;
-  font-family: "Roboto";
   list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  background-color: var(--ocean);
-  color: var(--h1-color);
-  border-radius: 5%;
 }
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
@@ -303,8 +298,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--ocean);
-  color: var(--h1-color);
+  padding: 12px 24px;
+  background-color: var(--cloud);
+  color: var(--iris);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
   border-radius: 5%;
 }
 .buttons:hover,
